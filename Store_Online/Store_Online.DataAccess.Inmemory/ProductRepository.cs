@@ -68,7 +68,7 @@ namespace Store_Online.DataAccess.Inmemory
             }
             else
             {
-
+                throw new Exception("product not Found");
             }
         }
     }

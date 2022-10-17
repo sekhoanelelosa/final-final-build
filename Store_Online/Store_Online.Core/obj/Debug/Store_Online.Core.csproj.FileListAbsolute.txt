@@ -1,0 +1,6 @@
+C:\Users\sekhoane\Desktop\final buld\final-final-build\Store_Online\Store_Online.Core\bin\Debug\Store_Online.Core.dll
+C:\Users\sekhoane\Desktop\final buld\final-final-build\Store_Online\Store_Online.Core\bin\Debug\Store_Online.Core.pdb
+C:\Users\sekhoane\Desktop\final buld\final-final-build\Store_Online\Store_Online.Core\obj\Debug\Store_Online.Core.csproj.AssemblyReference.cache
+C:\Users\sekhoane\Desktop\final buld\final-final-build\Store_Online\Store_Online.Core\obj\Debug\Store_Online.Core.csproj.CoreCompileInputs.cache
+C:\Users\sekhoane\Desktop\final buld\final-final-build\Store_Online\Store_Online.Core\obj\Debug\Store_Online.Core.dll
+C:\Users\sekhoane\Desktop\final buld\final-final-build\Store_Online\Store_Online.Core\obj\Debug\Store_Online.Core.pdb

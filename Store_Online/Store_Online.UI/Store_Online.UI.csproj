@@ -170,6 +170,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -235,6 +236,8 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Product\Index.cshtml" />
+    <Content Include="Views\Product\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -251,6 +254,24 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Store_Online.Core\Store_Online.Core.csproj">
+      <Project>{5107c6b3-16f9-459f-a9f4-cc59af64c683}</Project>
+      <Name>Store_Online.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Store_Online.DataAcces.SQL\Store_Online.DataAcces.SQL.csproj">
+      <Project>{11df7a27-1f7d-4153-98d6-21fa3d121e0c}</Project>
+      <Name>Store_Online.DataAcces.SQL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Store_Online.DataAccess.Inmemory\Store_Online.DataAccess.Inmemory.csproj">
+      <Project>{90a6c876-644b-4981-8226-69674713febc}</Project>
+      <Name>Store_Online.DataAccess.Inmemory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Store_Online.Services\Store_Online.Services.csproj">
+      <Project>{b8e90e43-336e-49f6-bea8-9aebf02b9cdb}</Project>
+      <Name>Store_Online.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
